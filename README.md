@@ -1,29 +1,34 @@
-# Welcome to your Lovable project
+# Lirija · Salon venčanica, Beograd
 
-This project was built with [Lovable](https://lovable.dev).
+Sajt salona venčanica **Lirija**: kolekcije Selestia Paris, Albina Dyla i Vladiyan, privatne probe i zakazivanje.
 
-## Build with Lovable
+Statičan sajt (HTML, CSS i JavaScript) koji ne zahteva build, server ni bazu podataka, pa radi direktno na GitHub Pages.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Struktura
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```
+index.html            cela stranica
+assets/css/           stilovi (lirija.css)
+assets/js/            animacije i skrol (lirija.js, lenis.min.js)
+assets/img/           fotografije kolekcija i galerije
+assets/frames/        255 frejmova haljine koja se okreće pri skrolovanju (WebP, iz originalnog videa)
+.nojekyll             isključuje Jekyll obradu na GitHub Pages
+lovable-izvor/        originalni Lovable projekat (TanStack Start), čuva se samo kao referenca
 ```
 
-## Built with
+## Objavljivanje na GitHub Pages
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+1. U repozitorijumu otvorite **Settings → Pages**.
+2. Pod **Build and deployment → Source** izaberite **Deploy from a branch**.
+3. Branch: **main**, folder: **/ (root)**, pa **Save**.
+4. Posle minut-dva sajt je na adresi `https://5ar27.github.io/lirija/`.
+
+Sve putanje u sajtu su relativne, pa radi i na sopstvenom domenu (npr. `lirija.rs`) bez izmena.
+
+## Izmene
+
+- Tekstovi i raspored: `index.html`
+- Fotografije: zamenite fajl u `assets/img/` istim imenom, ili promenite putanju u `index.html`
+- Formular za zakazivanje je trenutno demo i ne šalje podatke
+
+Dizajn i izrada: [Vektor Code](https://www.instagram.com/vektor.code/)
