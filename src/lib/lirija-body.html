@@ -1,0 +1,200 @@
+
+
+<div id="intro" aria-hidden="true">
+  <div class="intro-h">
+    <span class="line"><span>Gde <em>počinje</em></span></span>
+    <span class="line"><span>vaša priča</span></span>
+    <div class="intro-win"><img src="__PHOTO_21__" alt="Mlada u venčanici na sunčevoj svetlosti"></div>
+    <span class="line"><span>u haljini</span></span>
+    <span class="line"><span><em>iz snova.</em></span></span>
+  </div>
+  <div class="intro-pct" id="introPct">0%</div>
+  <div class="intro-bar"><i></i></div>
+</div>
+
+<div class="chrome">
+  <button class="btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Meni</button>
+  <a class="btn" href="#zakazivanje"><em>Zakažite</em> probu</a>
+</div>
+<div class="menu" id="menu" aria-label="Meni">
+  <button class="btn close" id="menuClose">Zatvori</button>
+  <nav>
+    <a href="#salon"><em>naš</em> Salon</a>
+    <a href="#kolekcije">Kolekcije</a>
+    <a href="#proba"><em>kako</em> Izgleda proba</a>
+    <a href="#galerija">Galerija</a>
+    <a href="#zakazivanje">Zakazivanje</a>
+  </nav>
+  <small>Strahinjića Bana 12, Beograd</small>
+</div>
+
+<main>
+  <!-- title card -->
+  <section class="title" id="top" aria-label="Lirija">
+    <div class="title-bg"></div>
+    <div class="title-in" id="titleIn">
+      <h1 class="wordmark fade">Lirija</h1>
+      <p class="title-sub fade d2"><em>Salon</em> venčanica <em>u</em> Beogradu</p>
+    </div>
+  </section>
+
+  <!-- the gown rises and turns a full circle with the scroll -->
+  <section class="gown" id="salon" aria-label="Venčanica">
+    <div class="gown-stage">
+      <div class="gown-frame" id="gownFrame">
+        <img src="__GOWN_POSTER__" alt="Venčanica iz novog videa, okreće se dok skrolujete" fetchpriority="high">
+        <canvas id="gownCanvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="gown-fade"></div>
+      <div class="gown-words" id="gownWords" aria-hidden="true">
+        <p class="mega-h">Haljina koja se<br>pamti <em>zauvek.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="statement">
+    <h2 class="sans-h rv">Lirija je salon venčanica u kome <br>se haljina ne bira na brzinu, <br>nego se pronalazi.</h2>
+    <p class="body-c rv">U salonu su kolekcije Selestia Paris, Albina Dyla i Vladiyan. Svaka proba je privatna i traje onoliko koliko vam je potrebno, a prepravke radimo u sopstvenom ateljeu, po vašim merama.</p>
+    <a class="btn rv" href="#zakazivanje"><em>Zakažite</em> probu</a>
+  </div>
+
+  <!-- essence -->
+  <section class="essence" aria-label="Naša priča">
+    <p class="kicker rv"><em>naša</em> priča</p>
+    <h2 class="mega-h essence-h reveal"><span class="line"><span><em>gde</em> tradicija</span></span><span class="line"><span><em>sreće</em> eleganciju</span></span></h2>
+    <figure class="essence-img" style="margin-top:-4.2vw"><img data-speed="-0.12" src="__PHOTO_13__" alt="Mlada u haljini Lora pored mora" loading="lazy" decoding="async"></figure>
+  </section>
+
+  <!-- three steps, wiped one into the next -->
+  <section class="wipe" id="proba" aria-label="Od probe do venčanja">
+    <div class="wipe-stage">
+      <div class="wipe-img"><img src="__PHOTO_1__" alt="Mlada sa tijarom u salonu" loading="lazy" decoding="async"></div>
+      <div class="wipe-img"><img src="__PHOTO_22__" alt="Čipkana venčanica na vešalici" loading="lazy" decoding="async"></div>
+      <div class="wipe-img"><img src="__PHOTO_19__" alt="Mlada u starinskom automobilu" loading="lazy" decoding="async"></div>
+      <div class="wipe-dots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+      <p class="wipe-cap" id="wipeCap"><span class="on"><em>Od</em> probe,</span> <span><em>do</em> prepravke,</span> <span><em>do</em> velikog dana.</span></p>
+    </div>
+  </section>
+
+  <!-- the three houses -->
+  <section class="houses" id="kolekcije" aria-label="Kolekcije">
+    <p class="kicker rv"><em>kolekcije</em> 2026</p>
+    <h2 class="mega-h reveal"><span class="line"><span><em>tri</em> modne kuće,</span></span><span class="line"><span>jedan <em>izbor.</em></span></span></h2>
+    <div class="houses-grid">
+      <div class="houses-media">
+        <div class="hm-sticky" id="hmSticky">
+          <img class="on" src="__PHOTO_15__" alt="Selestia Paris, venčanica Lora" loading="lazy" decoding="async">
+          <img src="__PHOTO_16__" alt="Albina Dyla, raskošna venčanica" loading="lazy" decoding="async">
+          <img src="__PHOTO_9__" alt="Vladiyan, venčanica ispred ogledala" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <div class="houses-list">
+        <article class="house">
+          <p class="tag"><em>iz</em> Pariza</p>
+          <h3 class="sans-h">Selestia Paris. <br>Jednostavnost sa stavom.</h3>
+          <p class="body-c"><em>Mekan saten, čisti krojevi i dramatična ramena.</em> Za mladu koja voli mirne linije i jedan upečatljiv detalj. Kolekcija ima i modele za punije figure.</p>
+          <div class="house-pair"><figure><img src="__PHOTO_5__" alt="Selestia Paris, venčanica Blanche pored prozora" loading="lazy" decoding="async"></figure><figure><img src="__PHOTO_4__" alt="Detalj ramena venčanice Blanche" loading="lazy" decoding="async"></figure><figure><img src="__PHOTO_14__" alt="Selestia Paris, venčanica Lora pored stena" loading="lazy" decoding="async"></figure></div>
+        </article>
+        <article class="house">
+          <p class="tag"><em>za</em> velike sale</p>
+          <h3 class="sans-h">Albina Dyla. <br>Kristal i raskoš.</h3>
+          <p class="body-c"><em>Voluminozne suknje, kristali i dugi šlepovi.</em> Haljine koje se vide iz poslednjeg reda i blistaju pod svakim svetlom.</p>
+          <div class="house-pair"><figure><img src="__PHOTO_18__" alt="Albina Dyla, venčanica sa dugim šlepom" loading="lazy" decoding="async"></figure><figure><img src="__PHOTO_0__" alt="Albina Dyla, balska venčanica" loading="lazy" decoding="async"></figure></div>
+        </article>
+        <article class="house">
+          <p class="tag"><em>za</em> upečatljiv izlazak</p>
+          <h3 class="sans-h">Vladiyan. <br>Korset, biseri, sirena.</h3>
+          <p class="body-c"><em>Strukturisani korseti i nizovi bisera.</em> Kroj sirena za mladu koja ne želi da izgleda kao bilo ko drugi.</p>
+          <div class="house-pair"><figure><img src="__PHOTO_10__" alt="Vladiyan, detalj korseta i bisera" loading="lazy" decoding="async"></figure><figure><img src="__PHOTO_11__" alt="Vladiyan, venčanica sa velom" loading="lazy" decoding="async"></figure><figure><img src="__PHOTO_8__" alt="Vladiyan, detalj balske venčanice" loading="lazy" decoding="async"></figure></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- moment + gallery -->
+  <section class="moment" id="galerija" aria-label="Galerija">
+    <p class="kicker rv"><em>vaš</em> trenutak</p>
+    <h2 class="mega-h reveal"><span class="line"><span><em>svaka</em> haljina</span></span><span class="line"><span><em>ima svoju</em> priču.</span></span></h2>
+  </section>
+  <section class="zoom" aria-label="Fotografije iz kolekcija">
+    <div class="zoom-pin">
+      <div class="z z1"><div class="zi"><img src="__PHOTO_17__" alt="Albina Dyla, venčanica u svečanoj sali" loading="lazy" decoding="async"></div></div>
+      <div class="z z2"><div class="zi"><img src="__PHOTO_23__" alt="Mlada sa velom u vrtu" loading="lazy" decoding="async"></div></div>
+      <div class="z z3"><div class="zi"><img src="__PHOTO_3__" alt="Selestia Paris, venčanica Blanche u hodniku" loading="lazy" decoding="async"></div></div>
+      <div class="z z4"><div class="zi"><img src="__PHOTO_6__" alt="Vladiyan, balska venčanica na stepeništu" loading="lazy" decoding="async"></div></div>
+      <div class="z z5"><div class="zi"><img src="__PHOTO_20__" alt="Mlada na drvenom stepeništu" loading="lazy" decoding="async"></div></div>
+      <div class="z z6"><div class="zi"><img src="__PHOTO_2__" alt="Albina Dyla, venčanica ispred ogledala" loading="lazy" decoding="async"></div></div>
+      <div class="z z7"><div class="zi"><img src="__PHOTO_12__" alt="Vladiyan, venčanica ispred ogledala" loading="lazy" decoding="async"></div></div>
+      <div class="zoom-shade" id="zoomShade"></div>
+      <div class="zoom-cap" id="zoomCap"><p>Svaka mlada <em>zaslužuje</em><br>svoj trenutak.</p></div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section class="quotes" aria-label="Utisci">
+    <p class="kicker"><em>utisci</em> mladih</p>
+    <div class="qstage" id="qStage" aria-live="polite">
+      <figure class="q on"><blockquote>“Došla sam sa slikom jedne haljine, a otišla u potpuno drugoj. Stilistkinja je odmah znala šta mi stoji.”</blockquote><figcaption>Milica Radenković<span>venčanje u junu, Beograd</span></figcaption></figure>
+      <figure class="q"><blockquote>“Prepravke su urađene savršeno. Haljina je stajala kao da je šivena samo za mene.”</blockquote><figcaption>Teodora Lazić<span>venčanje u septembru, Novi Sad</span></figcaption></figure>
+      <figure class="q"><blockquote>“Mama, sestra i ja imale smo ceo salon za sebe. Najlepše popodne pred venčanje.”</blockquote><figcaption>Anđela Vuković<span>venčanje u maju, Kragujevac</span></figcaption></figure>
+    </div>
+    <div class="qnav">
+      <button id="qPrev" aria-label="Prethodni utisak"><svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M222,128a6,6,0,0,1-6,6H54.49l61.75,61.76a6,6,0,1,1-8.48,8.48l-72-72a6,6,0,0,1,0-8.48l72-72a6,6,0,0,1,8.48,8.48L54.49,122H216A6,6,0,0,1,222,128Z"/></svg></button>
+      <span class="qcount" id="qCount">1 / 3</span>
+      <button id="qNext" aria-label="Sledeći utisak"><svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z"/></svg></button>
+    </div>
+  </section>
+
+  <!-- words + seal -->
+  <section class="words" aria-hidden="true">
+    <div class="wrow" data-dir="-1"><span>Čipka</span><span>svila</span><span>Til</span><span>biseri</span><span>Čipka</span><span>svila</span><span>Til</span><span>biseri</span></div>
+    <div class="wrow" data-dir="1"><span>Ljubav</span><span>zauvek</span><span>Trenutak</span><span>da</span><span>Ljubav</span><span>zauvek</span><span>Trenutak</span><span>da</span></div>
+    <div class="wrow" data-dir="-1"><span>Veo</span><span>buket</span><span>Prsten</span><span>ples</span><span>Veo</span><span>buket</span><span>Prsten</span><span>ples</span></div>
+    <div class="wrow" data-dir="1"><span>Sreća</span><span>osmeh</span><span>Zagrljaj</span><span>suze</span><span>Sreća</span><span>osmeh</span><span>Zagrljaj</span><span>suze</span></div>
+    <div class="seal" id="seal"><span>Lirija</span></div>
+  </section>
+
+  <!-- booking -->
+  <section class="book" id="zakazivanje" aria-label="Zakazivanje probe">
+    <div class="book-bg"><img data-speed="0.14" src="__PHOTO_7__" alt="Vladiyan, venčanica na zelenom stepeništu" loading="lazy" decoding="async"></div>
+    <div class="book-in">
+      <div class="book-copy rv">
+        <h2>Zakažite <em>svoju</em> probu.</h2>
+        <p>Probe su od utorka do subote, uz prethodnu najavu. Javljamo vam se u roku od jednog radnog dana da potvrdimo termin.</p>
+      </div>
+      <form class="form rv" id="form" novalidate>
+        <div id="formBody" style="display:grid;gap:20px">
+          <h3><em>Vaš</em> termin</h3>
+          <div class="field" id="f-name"><label for="name">Ime i prezime</label><input id="name" name="name" autocomplete="name" placeholder="npr. Jelena Petrović"><span class="err" id="e-name"></span></div>
+          <div class="row">
+            <div class="field" id="f-phone"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="06x xxx xxxx"><span class="err" id="e-phone"></span></div>
+            <div class="field" id="f-date"><label for="date">Datum venčanja</label><input id="date" name="date" type="date"><span class="err" id="e-date"></span></div>
+          </div>
+          <div class="field" id="f-day"><label for="day">Željeni termin probe</label>
+            <select id="day" name="day"><option value="">Izaberite</option><option>Radnim danom, pre podne</option><option>Radnim danom, posle podne</option><option>Subotom</option></select>
+            <span class="err" id="e-day"></span></div>
+          <div class="field"><label for="msg">Napomena</label><textarea id="msg" name="msg" placeholder="Stil koji volite, broj pratilaca, pitanja..."></textarea><span class="help">Nije obavezno.</span></div>
+          <button class="btn" type="submit" id="submitBtn"><span class="lbl">Pošaljite <em>zahtev</em></span></button>
+        </div>
+        <div class="sent" id="sent" hidden>
+          <h3 id="sentTitle">Hvala!</h3>
+          <p>Zahtev je zabeležen. U pravoj verziji sajta stiže salonu, koji vas zatim zove radi potvrde termina.</p>
+          <small>Demo prikaz, podaci se ne šalju.</small>
+          <button type="button" class="linkbtn" id="again">Novi zahtev</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" id="kontakt">
+  <div class="foot-grid">
+    <div><p class="lead">Vidimo se <em>u</em> salonu.</p></div>
+    <div><h3>Adresa</h3><p>Strahinjića Bana 12<br>11000 Beograd, Dorćol</p></div>
+    <div><h3>Radno vreme</h3><p>Utorak - petak: 11 - 20h<br>Subota: 10 - 16h<br>Nedelja i ponedeljak: zatvoreno</p></div>
+    <div><h3>Kontakt</h3><p id="phoneTxt">+381 64 218 4407</p><button class="copy-btn" id="copyPhone" type="button">kopiraj broj</button><p>salon@lirija.rs</p><a href="https://www.instagram.com/" target="_blank" rel="noopener">@lirija.vencanice</a></div>
+  </div>
+  <div class="foot-mega" id="mega" aria-hidden="true">Lirija</div>
+  <div class="foot-bar"><span>© 2026 Salon venčanica Lirija</span><span>Dizajn i izrada: Vektor Code</span></div>
+</footer>
+
