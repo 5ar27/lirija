@@ -18,10 +18,9 @@ lovable-izvor/        originalni Lovable projekat (TanStack Start), čuva se sam
 
 ## Objavljivanje na GitHub Pages
 
-1. U repozitorijumu otvorite **Settings → Pages**.
-2. Pod **Build and deployment → Source** izaberite **Deploy from a branch**.
-3. Branch: **main**, folder: **/ (root)**, pa **Save**.
-4. Posle minut-dva sajt je na adresi `https://5ar27.github.io/lirija/`.
+Sajt je objavljen na adresi **https://5ar27.github.io/lirija/** i GitHub Pages ga služi sa grane **`gh-pages`**.
+
+Posle svake izmene na `main` grani pošaljite iste izmene i na `gh-pages` (`git push origin main:gh-pages`), inače sajt ostaje na staroj verziji. Ako želite da Pages radi direktno sa `main`, u **Settings → Pages** izaberite branch **main**, folder **/ (root)** i kliknite **Save**.
 
 Sve putanje u sajtu su relativne, pa radi i na sopstvenom domenu (npr. `lirija.rs`) bez izmena.
 
